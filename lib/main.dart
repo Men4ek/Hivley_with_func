@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:hivley_app/colors/colors.dart';
 import 'package:hivley_app/widgets/auth/auth.dart';
 import 'package:hivley_app/widgets/start_screen/start_screen_widget.dart';
-
+import 'colors/colors.dart';
 import 'widgets/main_screen/main_screen_widget.dart';
 
 void main() => runApp(const MyApp());
@@ -17,8 +18,8 @@ class MyApp extends StatelessWidget {
           backgroundColor: const Color(0xffff),
           primarySwatch: Colors.blue,
           scaffoldBackgroundColor: const Color(0xffff),
-          bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-            backgroundColor: Color(0xffFFA410),
+          bottomNavigationBarTheme: BottomNavigationBarThemeData(
+            backgroundColor: buttonOrange,
             unselectedItemColor: Colors.black,
             showUnselectedLabels: true,
             type: BottomNavigationBarType.fixed,
