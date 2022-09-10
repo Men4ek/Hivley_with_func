@@ -19,3 +19,21 @@ TextStyle bottomNavBarItems = const TextStyle(
   fontWeight: FontWeight.w600,
   color: Color(0xffff),
 );
+
+TextStyle homeScreenWidg = const TextStyle(
+  fontSize: 12,
+  fontWeight: FontWeight.w600,
+  color: Color(0xFFFFFFfff),
+);
+
+TextStyle mainScreenTextCat = const TextStyle(
+  fontSize: 18,
+  fontWeight: FontWeight.w700,
+  color: Color(0xffFFA410),
+);
+
+TextStyle featuredList = const TextStyle(
+  fontSize: 12,
+  fontWeight: FontWeight.w700,
+  color: Color(0xffFFA410),
+);
