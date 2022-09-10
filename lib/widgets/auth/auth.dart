@@ -70,6 +70,7 @@ class FormWidget extends StatefulWidget {
 class _FormWidgetState extends State<FormWidget> {
   final loginEditController = TextEditingController();
   final passEditController = TextEditingController();
+
   String? errorText;
   void auth() {
     final login = loginEditController.text;
